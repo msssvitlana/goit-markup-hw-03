@@ -10,6 +10,24 @@ ul, ol {
 a {
     text-decoration: none;
 }
+.container {
+  max-width: 1470px;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+.page-header-container {
+  display: flex;
+  flex-direction: row;
+
+  align-items: first baseline;
+  width: 1440px;
+    height: 72px;
+}
+.header-nav-list-container {
+  display: flex;
+  flex-direction: row;
+
+}
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -25,6 +43,7 @@ a {
 .footer-logo .logo-part {
     color: #f4f4fd;
 }
+
 .header-nav-link {
     font-weight: 500;
     font-size: 16px;
@@ -74,7 +93,7 @@ a {
  .main-page-btn:focus{
     background: #404bbf;
  }
-
+ 
 .advantages-name{
     font-weight: 500;
         font-size: 20px;
@@ -88,11 +107,14 @@ a {
         letter-spacing: 0.02em;
         color: #434455;
 }
- 
+  
+  
   .specialists {
     background-color: #f4f4fd;
+
   }
-  .specalist-team{
+  
+  .specalist-team {
     text-transform: capitalize;
     font-weight: 700;
         font-size: 36px;
@@ -101,9 +123,13 @@ a {
         text-align: center;
         color: #2e2f42;
   }
+  
   .specalist-item {
     background-color: #FFFFFF;
+    
   }
+  
+    
   .specialist-name {
     font-weight: 500;
         font-size: 20px;
@@ -128,6 +154,7 @@ a {
     text-align: center;
     color: #2e2f42;
   }
+  
   .application-name {
     font-weight: 500;
         font-size: 20px;
@@ -153,3 +180,4 @@ a {
         letter-spacing: 0.02em;
         color: #f4f4fd;
   }
+  
