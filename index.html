@@ -106,11 +106,12 @@
             </ul>
           </div>
         </section>
+
         <section class="specialists">
           <h2 class="specalist-team">Our Team</h2>
-          <ul class="specalist-list">
-            <li class="specalist-item">
-              <div class="container specialist-conteiner">
+          <div class="specialists-container">
+            <ul class="specalist-list">
+              <li class="specalist-item">
                 <img
                   class="specialist-photo no-gap"
                   src="./images/img.mark.jpg"
@@ -122,10 +123,8 @@
                   <h3 class="specialist-name">Mark Guerrero</h3>
                   <p class="specialist-post">Product Designer</p>
                 </div>
-              </div>
-            </li>
-            <li class="specalist-item">
-              <div class="specialist">
+              </li>
+              <li class="specalist-item">
                 <img
                   class="specialist-photo no-gap"
                   src="./images/img.tom.jpg"
@@ -133,14 +132,12 @@
                   width="264"
                   height="260"
                 />
-                <div class="container specalist-descr-tom">
+                <div class="container specalist-descr">
                   <h3 class="specialist-name">Tom Ford</h3>
                   <p class="specialist-post">Frontend Developer</p>
                 </div>
-              </div>
-            </li>
-            <li class="specalist-item">
-              <div class="container specialist">
+              </li>
+              <li class="specalist-item">
                 <img
                   class="specialist-photo no-gap"
                   src="./images/img.kamilla.jpg"
@@ -152,10 +149,8 @@
                   <h3 class="specialist-name">Camila Garcia</h3>
                   <p class="specialist-post">Marketing</p>
                 </div>
-              </div>
-            </li>
-            <li class="specalist-item">
-              <div class="specialist">
+              </li>
+              <li class="specalist-item">
                 <img
                   class="specialist-photo no-gap"
                   src="./images/img.daniel.jpg"
@@ -167,90 +162,106 @@
                   <h3 class="specialist-name">Daniel Wilson</h3>
                   <p class="specialist-post">UI Designer</p>
                 </div>
-              </div>
-            </li>
-          </ul>
+              </li>
+            </ul>
+          </div>
         </section>
         <section class="work-example">
           <h2 class="application">Our Portfolio</h2>
-          <ul class="application-list">
-            <li class="application-item">
-              <img
-                class="application-photo"
-                src="./images/portpholio/banking.jpg"
-                alt="banking"
-                width="360"
-                height="300"
-              />
-              <h3 class="application-name">Banking App</h3>
-              <p class="application-descr">App</p>
-            </li>
-            <li class="application-item">
-              <img
-                class="application-photo"
-                src="./images/portpholio/Payment.jpg"
-                alt="pay"
-                width="360"
-                height="300"
-              />
-              <h3 class="application-name">Cashless Payment</h3>
-              <p class="application-descr">Marketing</p>
-            </li>
-            <li class="application-item">
-              <img
-                class="application-photo"
-                src="./images/portpholio/Meditation.jpg"
-                alt="med-app"
-                width="360"
-                height="300"
-              />
-              <h3 class="application-name">Meditation App</h3>
-              <p class="application-descr">App</p>
-            </li>
-            <li class="application-item">
-              <img
-                class="application-photo"
-                src="./images/portpholio/Service.jpg"
-                alt="taxi"
-                width="360"
-                height="300"
-              />
-              <h3 class="application-name">Taxi Service</h3>
-              <p class="application-descr">Marketing</p>
-            </li>
-            <li class="application-item">
-              <img
-                class="application-photo"
-                src="./images/portpholio/Illustrations.jpg"
-                alt="screen"
-                width="360"
-                height="300"
-              />
-              <h3 class="application-name">Screen Illustrations</h3>
-              <p class="application-descr">Design</p>
-            </li>
-            <li class="application-item">
-              <img
-                class="application-photo"
-                src="./images/portpholio/Courses.jpg"
-                alt="course"
-                width="360"
-                height="300"
-              />
-              <h3 class="application-name">Online Courses</h3>
-              <p class="application-descr">Marketing</p>
-            </li>
-          </ul>
+          <div class="application-container">
+            <ul class="application-list">
+              <li class="application-item">
+                <img
+                  class="application-photo"
+                  src="./images/portpholio/banking.jpg"
+                  alt="banking"
+                  width="360"
+                  height="300"
+                />
+                <div class="application-name-container">
+                  <h3 class="application-name">Banking App</h3>
+                  <p class="application-descr">App</p>
+                </div>
+              </li>
+              <li class="application-item">
+                <img
+                  class="application-photo"
+                  src="./images/portpholio/Payment.jpg"
+                  alt="pay"
+                  width="360"
+                  height="300"
+                />
+                <div class="application-name-container">
+                  <h3 class="application-name">Cashless Payment</h3>
+                  <p class="application-descr">Marketing</p>
+                </div>
+              </li>
+              <li class="application-item">
+                <img
+                  class="application-photo"
+                  src="./images/portpholio/Meditation.jpg"
+                  alt="med-app"
+                  width="360"
+                  height="300"
+                />
+                <div class="application-name-container">
+                  <h3 class="application-name">Meditation App</h3>
+                  <p class="application-descr">App</p>
+                </div>
+              </li>
+              <li class="application-item">
+                <img
+                  class="application-photo"
+                  src="./images/portpholio/Service.jpg"
+                  alt="taxi"
+                  width="360"
+                  height="300"
+                />
+                <div class="application-name-container">
+                  <h3 class="application-name">Taxi Service</h3>
+                  <p class="application-descr">Marketing</p>
+                </div>
+              </li>
+              <li class="application-item">
+                <img
+                  class="application-photo"
+                  src="./images/portpholio/Illustrations.jpg"
+                  alt="screen"
+                  width="360"
+                  height="300"
+                />
+                <div class="application-name-container">
+                  <h3 class="application-name">Screen Illustrations</h3>
+                  <p class="application-descr">Design</p>
+                </div>
+              </li>
+              <li class="application-item">
+                <img
+                  class="application-photo"
+                  src="./images/portpholio/Courses.jpg"
+                  alt="course"
+                  width="360"
+                  height="300"
+                />
+                <div class="application-name-container">
+                  <h3 class="application-name">Online Courses</h3>
+                  <p class="application-descr">Marketing</p>
+                </div>
+              </li>
+            </ul>
+          </div>
         </section>
       </main>
       <footer class="page-footer">
-        <a class="logo footer-logo" href="./index.html"
-          >Web<span class="logo-part">Studio</span></a
-        >
-        <p class="footer-advice">
-          Increase the flow of customers and sales for your business with
-          digital marketing & growth solutions.
-        </p>
+        <div class="page-footer-container">
+          <a class="logo footer-logo" href="./index.html"
+            >Web<span class="logo-part">Studio</span></a
+          >
+          <p class="footer-advice">
+            Increase the flow of customers and sales for your business with
+            digital marketing & growth solutions.
+          </p>
+        </div>
       </footer>
     </div>
   </body>
