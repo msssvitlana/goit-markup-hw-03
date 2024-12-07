@@ -46,7 +46,8 @@ a {
   flex-direction: row;
   align-items: center;
   justify-content: first baseline;
- 
+width: 1158px;
+padding: 0 15px 0 15px;
 }
 .header-nav {
   display: flex;
@@ -193,6 +194,7 @@ gap: 24px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        margin-bottom: 8px;
 }
 .advantages-descr{
         font-size: 16px;
