@@ -32,9 +32,9 @@ a {
   overflow: hidden;
 }
 .container {
-  max-width: 1158px;
+  width: 1158px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 15px 0 15px;
   align-items: center;
   justify-items: normal;
 }
@@ -51,7 +51,7 @@ a {
 .header-nav {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  align-items: center;
 
 }
 .header-nav-list {
@@ -71,7 +71,7 @@ a {
 }
 .header-logo {
   padding: 24px 0;
-  margin-right: 74px;
+  margin-right: 76px;
 }
 
 .header-logo .logo-part {
@@ -116,7 +116,7 @@ a {
   }
   .main-page {
     background-color: #2e2f42;
-   
+    padding: 188px 0;
       height: 600px;
   }
   .main-page-container {
@@ -129,7 +129,7 @@ justify-content: center;
     padding-top: 188px ;
     padding-bottom: 48px;
      margin: 0 auto;
-    width: 496px;
+    max-width: 496px;
     font-weight: 700;
         font-size: 56px;
         line-height: 1.07;
@@ -138,12 +138,12 @@ justify-content: center;
         color: #fff;
   }
   .main-page-btn {
-    display: flex;
+    display: block;
     flex-direction: row;
     border-radius: 4px;
       padding: 16px 32px;
 box-sizing: border-box;
-      border-width: 169px;
+      min-width: 169px;
       margin-bottom: 188px;
     margin-left: auto;
     margin-right: auto;
@@ -161,6 +161,9 @@ box-sizing: border-box;
  .main-page-btn:hover,
  .main-page-btn:focus{
     background: #404bbf;
+ }
+ .privilege {
+  padding: 120px 0;
  }
  .privilege-container {
   display: flex;
@@ -201,7 +204,7 @@ gap: 24px;
   
   .specialists {
     background-color: #f4f4fd;
-
+padding: 120px 0;
   }
   .specialists-container {
     display: flex;
@@ -209,10 +212,14 @@ gap: 24px;
     gap: 24px;
 
   }
-  .specalist-team {
+    .specialist-photo {
+      display: block;
+    }
+  .specialist-team {
     padding-top: 120px;
     padding-bottom: 32px;
-    margin: 0 auto;
+    margin-bottom: 72px;
+
     text-transform: capitalize;
     font-weight: 700;
         font-size: 36px;
@@ -221,21 +228,22 @@ gap: 24px;
         text-align: center;
         color: #2e2f42;
   }
- .specalist-list {
+ .specialist-list {
   display: flex;
   align-items: center;
   margin: 0 auto;
   padding-bottom: 120px ;
   gap: 24px;
  }
-  .specalist-item {
+  .specialist-item {
+    flex-basis: calc((100% - 72px) / 4);
     background-color: #FFFFFF;
     border-radius: 0 0 4px 4px;
       align-items: center;
       justify-content: center;
   }
-  .specalist-descr {
-    margin: 32px 16px;
+  .specialist-descr {
+    
     width: 232px;
       height: 56px;
       display: flex;
@@ -243,6 +251,7 @@ gap: 24px;
         justify-content: center;
         flex-direction: column;
         gap: 8px;
+        padding: 32px 0;
   }
     
   .specialist-name {
@@ -252,6 +261,7 @@ gap: 24px;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        margin-bottom: 8px; 
   }
   .specialist-post {
         font-size: 16px;
@@ -259,8 +269,15 @@ gap: 24px;
         letter-spacing: 0.02em;
         text-align: center;
         color: #434455;
+        margin-top: 8px;
   } 
- 
+
+  .work-example {
+    padding: 120px 0 120px 0;
+  }
+ .application-photo {
+  display: block;
+ }
   .application-container {
     display: flex;
     flex-wrap: wrap;
@@ -287,12 +304,13 @@ gap: 24px;
     text-align: center;
     color: #2e2f42;
     padding-top: 120px;
-    padding-bottom: 72px;
-    margin: 0 auto;
+    
+    margin-bottom: 72px;
   }
   .application-item {
     width: 360px;
       height: 420px;
+      width: calc((100% - 48px) / 3);
   }
    .application-name-container {
     display: flex;
@@ -302,13 +320,14 @@ gap: 24px;
   border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
+    border-top: none;
     width: 360px;
       height: 120px;
-     
+    padding: 32px 16px;
    }
   .application-name {
-  
-  padding: 32px 16px 8px;
+  margin-bottom: 8px;
+  padding: 32px 16px ;
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -332,13 +351,16 @@ gap: 24px;
    
 }
 .footer-logo {
+  display: inline-block;
   padding-top: 220px;
  padding-bottom: 16px;
-  margin-bottom: 0 auto;
+ 
+  margin-bottom: 16px;
 }
   .page-footer {
     background-color: #2e2f42;
     height: 312px;
+    padding: 100px 0;
   }
   
   .footer-advice {
