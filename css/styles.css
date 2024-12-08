@@ -117,8 +117,7 @@ padding: 188px 0;
  }
 .main-page-name {
 display: block;
-padding-top: 195px;
-padding-bottom: 285px;
+
 margin-bottom: 48px;
 margin-left: auto;
 margin-right: auto;
@@ -138,7 +137,6 @@ border-radius: 4px;
 padding: 16px 32px;
 box-sizing: border-box;
 min-width: 169px;
-margin-top: 48px;
 margin-left: auto;
 margin-right: auto;
 margin-bottom: 0;
@@ -170,8 +168,7 @@ cursor: pointer;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding-top: 120px;
-  padding-bottom: 120px;
+ 
   margin: 0 auto;
   width: 1128px;
   gap: 24px;
@@ -208,8 +205,7 @@ cursor: pointer;
   display: block;
   }
   .specialist-team {
-  padding-top: 120px;
-  padding-bottom: 32px;
+ 
   margin-bottom: 72px;
   text-transform: capitalize;
   font-weight: 700;
@@ -223,7 +219,6 @@ cursor: pointer;
   display: flex;
   align-items: center;
   margin: 0 auto;
-  padding-bottom: 120px;
   gap: 24px;
  }
   .specialist-item {
@@ -275,7 +270,6 @@ cursor: pointer;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  padding-top: 120px;
   margin-bottom: 72px;
   margin-left: auto;
   margin-right: auto;
@@ -288,7 +282,7 @@ cursor: pointer;
   align-items: center;
   column-gap: 24px;
   justify-content: flex-start;
-  padding-bottom: 120px ;
+ 
   }
   .application-item {
   width: calc((100% - 48px) / 3);
@@ -327,7 +321,6 @@ cursor: pointer;
  .page-footer-container {
   display: block;
   justify-content: flex-start;
-  padding: 100px 0; 
 }
 .footer-logo {
 display: inline-block;
